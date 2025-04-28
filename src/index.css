@@ -79,15 +79,15 @@
 
 @layer components {
   .gradient-heading {
-    @apply bg-gradient-to-r from-veiva-purple to-veiva-lightblue bg-clip-text text-transparent;
+    @apply bg-gradient-to-r from-green-600 to-green-400 bg-clip-text text-transparent;
   }
   
   .btn-primary {
-    @apply bg-gradient-to-r from-veiva-purple to-veiva-lightblue text-white font-medium rounded-md px-6 py-3 hover:opacity-90 transition-all;
+    @apply bg-gradient-to-r from-green-600 to-green-400 text-white font-medium rounded-md px-6 py-3 hover:opacity-90 transition-all;
   }
   
   .btn-secondary {
-    @apply bg-white text-veiva-blue border border-veiva-gray/20 font-medium rounded-md px-6 py-3 hover:bg-veiva-lightgray transition-all;
+    @apply bg-white text-green-700 border border-green-100 font-medium rounded-md px-6 py-3 hover:bg-green-50 transition-all;
   }
   
   .section-padding {
