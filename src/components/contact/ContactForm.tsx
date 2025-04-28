@@ -74,7 +74,7 @@ const ContactForm = () => {
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold text-veiva-blue">Email</h3>
-                  <p className="text-veiva-gray">info@veiva.in</p>
+                  <p className="text-veiva-gray">aadvision1@gmail.com</p>
                 </div>
               </div>
               
@@ -86,7 +86,7 @@ const ContactForm = () => {
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold text-veiva-blue">Phone</h3>
-                  <p className="text-veiva-gray">+91 123 456 7890</p>
+                  <p className="text-veiva-gray">+91 9711974410</p>
                 </div>
               </div>
               
@@ -100,9 +100,9 @@ const ContactForm = () => {
                 <div>
                   <h3 className="text-lg font-semibold text-veiva-blue">Office</h3>
                   <p className="text-veiva-gray">
-                    123 Tech Park, Sector 15<br />
-                    Bangalore, Karnataka 560001<br />
-                    India
+                  1050, Offices Floor, Gaur City Mall,<br />
+                  Greater Noida West-201318<br />
+                  India
                   </p>
                 </div>
               </div>
