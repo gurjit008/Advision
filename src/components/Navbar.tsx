@@ -38,7 +38,7 @@ const Navbar = () => {
     )}>
       <div className="container-custom flex justify-between items-center">
         <Link to="/" className="flex items-center">
-          <h1 className="text-2xl font-bold text-veiva-blue">Veiva<span className="text-veiva-purple">.in</span></h1>
+          <h1 className="text-2xl font-bold text-green-800">Aadivision<span className="text-green-600">.in</span></h1>
         </Link>
         
         {/* Desktop Navigation */}
