@@ -1,22 +1,22 @@
 
 import React from 'react';
-import { Image, Gem, Star } from 'lucide-react';
+import { Store, TrendingUp, Handshake } from 'lucide-react';
 
 const services = [
   {
-    icon: <Image className="w-12 h-12 text-green-600" />,
-    title: "Web Development",
-    description: "Creating responsive and modern web applications using cutting-edge technologies."
+    icon: <Store className="w-12 h-12 text-green-600" />,
+    title: "Distribution Network",
+    description: "Build and manage an efficient distribution network with our comprehensive management tools."
   },
   {
-    icon: <Gem className="w-12 h-12 text-green-600" />,
-    title: "AI Integration",
-    description: "Implementing intelligent solutions and machine learning models for business growth."
+    icon: <TrendingUp className="w-12 h-12 text-green-600" />,
+    title: "Sales Optimization",
+    description: "Maximize your sales potential with data-driven insights and automated inventory management."
   },
   {
-    icon: <Star className="w-12 h-12 text-green-600" />,
-    title: "Digital Transformation",
-    description: "Guiding businesses through their digital evolution with innovative solutions."
+    icon: <Handshake className="w-12 h-12 text-green-600" />,
+    title: "Partner Support",
+    description: "Get dedicated support and resources to help grow your dealership or distribution business."
   }
 ];
 
@@ -26,10 +26,10 @@ const WhatWeDoSection = () => {
       <div className="container-custom">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
-            <span className="gradient-heading">What We Do</span>
+            <span className="gradient-heading">How We Support You</span>
           </h2>
           <p className="text-green-700/80 text-lg max-w-2xl mx-auto">
-            We specialize in delivering innovative solutions that drive digital transformation and business growth.
+            We provide comprehensive solutions to help dealers and distributors thrive in today's competitive market.
           </p>
         </div>
 
