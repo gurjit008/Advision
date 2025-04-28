@@ -12,7 +12,7 @@ const Contact = () => {
       <ContactHero />
       <ContactForm />
       <MapSection />
-      <FaqSection />
+      {/* <FaqSection /> */}
     </Layout>
   );
 };

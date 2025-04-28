@@ -121,7 +121,7 @@ const ContactForm = () => {
             </div>
           </div>
           
-          <div className="bg-veiva-lightgray p-8 rounded-xl">
+          {/* <div className="bg-veiva-lightgray p-8 rounded-xl">
             <form onSubmit={handleSubmit} className="space-y-6">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>
@@ -224,8 +224,8 @@ const ContactForm = () => {
               >
                 {isSubmitting ? 'Sending...' : 'Send Message'}
               </Button>
-            </form>
-          </div>
+            </form> 
+          </div>*/}
         </div>
       </div>
     </section>

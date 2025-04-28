@@ -7,7 +7,7 @@ const AboutHero = () => {
       <div className="container-custom">
         <div className="max-w-3xl mx-auto text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">
-            <span className="gradient-heading">About Veiva</span>
+            <span className="gradient-heading">About Aadvision</span>
           </h1>
           <p className="text-veiva-gray text-lg md:text-xl mb-8">
             We're on a mission to transform businesses through intelligent AI solutions and cutting-edge technology.

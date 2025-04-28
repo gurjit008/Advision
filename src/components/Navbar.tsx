@@ -38,7 +38,7 @@ const Navbar = () => {
     )}>
       <div className="container-custom flex justify-between items-center">
         <Link to="/" className="flex items-center">
-          <h1 className="text-2xl font-bold text-green-800">Aadivision<span className="text-green-600">.in</span></h1>
+          <h1 className="text-2xl font-bold text-green-800">Aadvision<span className="text-green-600">.in</span></h1>
         </Link>
         
         {/* Desktop Navigation */}
@@ -52,7 +52,7 @@ const Navbar = () => {
               {link.name}
             </Link>
           ))}
-          <Button className="btn-primary">Get Started</Button>
+          {/* <Button className="btn-primary">Get Started</Button> */}
         </nav>
         
         {/* Mobile Menu Button */}
@@ -81,7 +81,7 @@ const Navbar = () => {
               {link.name}
             </Link>
           ))}
-          <Button className="btn-primary mt-6">Get Started</Button>
+          {/* <Button className="btn-primary mt-6">Get Started</Button> */}
         </div>
       </div>
     </header>

@@ -35,10 +35,10 @@ const Footer = () => {
       <div className="container-custom">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
           <div className="lg:col-span-2">
-            <h2 className="text-2xl font-bold mb-4">Aadivision<span className="text-green-400">.in</span></h2>
+            <h2 className="text-2xl font-bold mb-4">Aadvision<span className="text-green-400">.in</span></h2>
             <p className="text-gray-300 mb-6 max-w-md">
               Empowering businesses with comprehensive dealer and distributor solutions. 
-              Led by Mr. M P Tiwari, Director of Aadivision.
+              Led by Mr. M P Tiwari, Director of Aadvision.
             </p>
             <div className="space-y-3 text-gray-300">
               <div className="flex items-center gap-2">
@@ -110,7 +110,7 @@ const Footer = () => {
         
         <div className="mt-16 pt-8 border-t border-green-700 text-center md:text-left md:flex md:justify-between md:items-center">
           <p className="text-gray-400">
-            &copy; {currentYear} Aadivision.in. All rights reserved.
+            &copy; {currentYear} Aadvision.in. All rights reserved.
           </p>
           <div className="mt-4 md:mt-0">
             <a href="#" className="text-gray-400 hover:text-white transition-colors mr-6">
