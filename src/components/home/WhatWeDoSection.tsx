@@ -1,22 +1,22 @@
 
 import React from 'react';
-import { Store, TrendingUp, Handshake } from 'lucide-react';
+import { Package, TrendingUp, Truck } from 'lucide-react';
 
 const services = [
   {
-    icon: <Store className="w-12 h-12 text-green-600" />,
-    title: "Distribution Network",
-    description: "Build and manage an efficient distribution network with our comprehensive management tools."
+    icon: <Package className="w-12 h-12 text-green-600" />,
+    title: "Premium Products",
+    description: "We distribute high-quality products from trusted manufacturers across multiple industries."
+  },
+  {
+    icon: <Truck className="w-12 h-12 text-green-600" />,
+    title: "Nationwide Distribution",
+    description: "Our efficient logistics network ensures timely delivery to retailers and businesses across India."
   },
   {
     icon: <TrendingUp className="w-12 h-12 text-green-600" />,
-    title: "Sales Optimization",
-    description: "Maximize your sales potential with data-driven insights and automated inventory management."
-  },
-  {
-    icon: <Handshake className="w-12 h-12 text-green-600" />,
-    title: "Partner Support",
-    description: "Get dedicated support and resources to help grow your dealership or distribution business."
+    title: "Business Growth",
+    description: "Partner with us to expand your product reach and grow your business with our established distribution channels."
   }
 ];
 
@@ -26,10 +26,10 @@ const WhatWeDoSection = () => {
       <div className="container-custom">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
-            <span className="gradient-heading">How We Support You</span>
+            <span className="gradient-heading">Our Distribution Services</span>
           </h2>
           <p className="text-green-700/80 text-lg max-w-2xl mx-auto">
-            We provide comprehensive solutions to help dealers and distributors thrive in today's competitive market.
+            Aadivision is your trusted partner for importing and distributing quality products across India.
           </p>
         </div>
 
@@ -56,4 +56,4 @@ const WhatWeDoSection = () => {
   );
 };
 
-export default WhatWeDoSection;
+export default WhatWeDoSection

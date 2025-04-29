@@ -12,7 +12,7 @@ const Products = () => {
       <ProductsHero />
       <ProductsList />
       <IndustriesSection />
-      <CtaSection />
+      {/* <CtaSection /> */}
     </Layout>
   );
 };

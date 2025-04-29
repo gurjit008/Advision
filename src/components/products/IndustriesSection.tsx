@@ -33,7 +33,7 @@ const IndustriesSection = () => {
             <span className="gradient-heading">Industries We Serve</span>
           </h2>
           <p className="text-veiva-gray text-lg">
-            Our AI solutions are tailored to address the unique challenges of various industries.
+          Our distribution network caters to a diverse range of industries with specialized product solutions.
           </p>
         </div>
         

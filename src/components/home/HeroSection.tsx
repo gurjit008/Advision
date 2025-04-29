@@ -9,11 +9,11 @@ const HeroSection = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="text-center lg:text-left animate-fade-in">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-              <span className="gradient-heading">Your Trusted Partner</span> <br />
-              in Distribution Excellence
+              <span className="gradient-heading">Premium Products</span> <br />
+              Import & Distribution
             </h1>
             <p className="text-green-700/80 text-lg md:text-xl mb-8 max-w-xl mx-auto lg:mx-0">
-              Empowering dealers and distributors with innovative solutions to streamline operations, maximize profits, and grow their business.
+            Connecting quality international products with Indian retailers and businesses. Your trusted distribution partner for over a decade.
             </p>
             <div className="flex flex-col sm:flex-row justify-center lg:justify-start space-y-4 sm:space-y-0 sm:space-x-4">
               <Button className="btn-primary" asChild>

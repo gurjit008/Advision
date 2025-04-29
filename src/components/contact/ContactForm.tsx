@@ -54,16 +54,16 @@ const ContactForm = () => {
   ];
   
   return (
-    <section className="section-padding bg-white">
+    <section className="section-padding bg-white md:px-32">
       <div className="container-custom">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
+        <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-0 gap-16">
           <div>
             <h2 className="text-3xl font-bold mb-6">
               <span className="gradient-heading">Contact Us</span>
             </h2>
-            <p className="text-veiva-gray mb-8">
+            {/* <p className="text-veiva-gray mb-8">
               Fill out the form and our team will get back to you within 24 hours.
-            </p>
+            </p> */}
             
             <div className="space-y-6 mb-8">
               <div className="flex items-start">
@@ -120,6 +120,41 @@ const ContactForm = () => {
               </a>
             </div>
           </div>
+
+          
+          <div className="bg-veiva-lightgray p-8 rounded-xl">
+          {/* <section className="section-padding bg-veiva-lightgray pb-0"> */}
+      <div className="container-custom">
+        <div className="text-center max-w-3xl mx-auto mb-16">
+          <h2 className="text-3xl font-bold mb-6">
+            <span className="gradient-heading">Visit Our Office</span>
+          </h2>
+          <p className="text-veiva-gray">
+            We're located in the Greater Noida.
+          </p>
+        </div>
+      </div>
+      
+      <div className="h-96 bg-gray-300 w-full">
+        {/* Map placeholder - In a real implementation, you would integrate Google Maps or another map provider here */}
+        {/* <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.7852359622016!2d77.42964839999999!3d28.606219!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cef002fa26cbf%3A0x877cdef76fc031d!2sAadvision!5e0!3m2!1sen!2sin!4v1745831445760!5m2!1sen!2sin"  style={{border:0 ,allowfullscreen:"" , loading:"lazy" ,referrerpolicy:"no-referrer-when-downgrade"}}></iframe> */}
+  
+        <div className="w-full h-full flex items-center justify-center bg-veiva-blue/10">
+        <iframe
+        title="Aadvision Location Map"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.7852359622016!2d77.42964839999999!3d28.606219!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cef002fa26cbf%3A0x877cdef76fc031d!2sAadvision!5e0!3m2!1sen!2sin!4v1745831445760!5m2!1sen!2sin"
+        width="100%"
+        height="100%"
+        style={{ border: 0 }}
+        loading="lazy"
+        referrerPolicy="no-referrer-when-downgrade"
+      ></iframe>
+        </div>
+      </div>
+    {/* </section> */}
+      </div>
+
+
           
           {/* <div className="bg-veiva-lightgray p-8 rounded-xl">
             <form onSubmit={handleSubmit} className="space-y-6">

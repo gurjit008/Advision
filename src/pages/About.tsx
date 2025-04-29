@@ -14,7 +14,7 @@ const About = () => {
       <OurStory />
       <TeamSection />
       <ValuesSection />
-      <CtaSection />
+      {/* <CtaSection /> */}
     </Layout>
   );
 };

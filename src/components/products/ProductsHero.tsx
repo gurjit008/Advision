@@ -12,7 +12,7 @@ const ProductsHero = () => {
             <span className="gradient-heading">Our Products</span>
           </h1>
           <p className="text-veiva-gray text-lg md:text-xl mb-8">
-            Discover our suite of AI-powered solutions designed to transform your business operations and drive growth.
+          Discover our wide range of imported and domestic products available for distribution across India.
           </p>
           <Button className="btn-primary" asChild>
             <Link to="/contact">Schedule a Demo</Link>
